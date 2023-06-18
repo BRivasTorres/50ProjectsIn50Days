@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 90%;
+    height: 80%;
+    margin: 5rem auto;
+    display: flex;
+    border: 1px solid red;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
+.picture {
+    border: 2px solid rebeccapurple;
+    width: 100px;
+    height: 100px;
+}
+
+.curr {
+    width: 100%;
+}
