@@ -1,5 +1,5 @@
-const nextBtn = document.getElementsById("next")
-const prevBtn = document.getElementsById("prev")
+const nextBtn = document.getElementById("next")
+const prevBtn = document.getElementById("prev")
 
 nextBtn.addEventListener("click", () => {
     console.log("next")
