@@ -1,3 +1,8 @@
+:root {
+    --active: #3498DB;
+    --desactive: #999BA6;
+}
+
 *,
 *::after,
 *::before {
@@ -44,14 +49,29 @@ body {
     background-color: #fff;
     border-radius: 50%;
     width: 35px;
-    border: 3px solid #999BA6;
+    border: 3px solid var(--desactive);
 }
 
-.num::after {
-    content: "";
-    width: 10px;
-    height: 1px;
-    background-color: red;
+.line {
+    width: 90px;
+    height: 4px;
+    background-color: var(--desactive);
+    position: absolute;
+}
+
+.line1 {
+    top: 18px;
+    left: 32px;
+}
+
+.line2 {
+    top: 18px;
+    left: 153px;
+}
+
+.line3 {
+    top: 18px;
+    left: 276px;
 }
 
 .btns {
@@ -70,6 +90,18 @@ body {
     font-weight: 500;
     font-size: 1.5rem;
     padding: .2rem;
+}
+
+.btn-active {
+    background: var(--active);
+}
+
+.num-active {
+    border: 3px solid var(--active);
+}
+
+.line-active {
+    background-color: var(--active);
 }
 
 .btn:hover,
