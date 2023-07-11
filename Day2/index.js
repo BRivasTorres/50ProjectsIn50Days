@@ -14,21 +14,19 @@ nextBtn.addEventListener("click", () => {
         nextBtn.style.cursor = "not-allowed"
         return 
     }
-    i += 1
-    console.log(i)
+    i++
 })
 
 prevBtn.addEventListener("click", () => {
     nextBtn.style.backgroundColor = "var(--active)"
     lines[i].style.backgroundColor = "var(--desactive)"
     nums[i+1].style.borderColor = "var(--desactive)"
-    if(i < 0) {
+    
+    if(i <= 0) {
         prevBtn.style.backgroundColor = "var(--desactive)"
         prevBtn.style.cursor = "not-allowed"
         return 
     }
-    i -= 1
-    console.log(i)
+    if(i < 1) i = 1
+    i--
 })
-
-//TODO cambiar el HTML para enlazar numeros con lineas.
