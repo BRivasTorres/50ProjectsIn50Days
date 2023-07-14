@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.parent {
+    background-color: #FF7979;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 100% 0;
+    /* position: absolute; */
+}
+
+.parent>div {
+    background-color: #fff;
+    width: 30px;
+    height: 5px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.child1 {
+    top: 30px;
+    right: -30px;
+}
+
+.child2 {
+    top: 35px;
+    right: -30px;
+}
+
+.child3 {
+    top: 40px;
+    right: -30px;
+}
+
+.icons {
+    background-color: #333333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
