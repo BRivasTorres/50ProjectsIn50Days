@@ -19,6 +19,7 @@ body {
     width: 70%;
     max-width: 1000px;
     margin: 0 auto;
+    padding: 100px 0 0 0;
     border: 2px solid red;
 }
 
@@ -28,6 +29,7 @@ body {
     height: 100px;
     border-radius: 0 0 100% 0;
     position: absolute;
+    z-index: 1;
 }
 
 .parent>i {
@@ -36,6 +38,11 @@ body {
     position: relative;
     top: 1.5rem;
     left: 2rem;
+}
+
+.menu:hover,
+.menu:active {
+    cursor: pointer;
 }
 
 .close {
@@ -59,17 +66,19 @@ body {
 }
 
 .icon1 {
-    margin-left: 1rem;
+    margin-left: -30px;
 }
 
 .icon2 {
-    margin-left: 2rem;
+    margin-left: -15px;
 }
 
 .icon3 {
-    margin-left: 3rem;
+    margin-left: -3px;
 }
 
 .rotate {
-    /* transform: rotate(-20deg); */
+    transform-origin: 110px 80px;
+    transform: rotate(-18deg);
+    transition: all 700ms ease;
 }
