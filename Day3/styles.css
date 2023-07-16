@@ -12,14 +12,14 @@ body {
 
 .main {
     background-color: #fff;
-    height: 100vh;
+    border: 2px solid green;
 }
 
 .content {
     width: 70%;
-    max-width: 1000px;
+    max-width: 800px !important;
     margin: 0 auto;
-    padding: 100px 0 0 0;
+    padding: 100px 0 20px 0;
     border: 2px solid red;
 }
 
@@ -41,11 +41,13 @@ body {
 }
 
 .menu:hover,
-.menu:active {
+.menu:active,
+.close:hover,
+.close:active {
     cursor: pointer;
 }
 
-.close {
+.hidden {
     visibility: hidden;
 }
 
@@ -78,7 +80,13 @@ body {
 }
 
 .rotate {
-    transform-origin: 110px 80px;
+    transform-origin: top left;
+    transform-style: preserve-3d;
     transform: rotate(-18deg);
+    transition: all 700ms ease;
+}
+
+.invisible {
+    margin-left: -200px;
     transition: all 700ms ease;
 }
