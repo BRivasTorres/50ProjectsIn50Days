@@ -12,7 +12,7 @@ body {
 
 .main {
     background-color: #fff;
-    border: 2px solid green;
+    transition: all 900ms ease;
 }
 
 .content {
@@ -20,7 +20,6 @@ body {
     max-width: 800px !important;
     margin: 0 auto;
     padding: 100px 0 20px 0;
-    border: 2px solid red;
 }
 
 .parent {
@@ -65,28 +64,28 @@ body {
     color: #FF7979;
     display: flex;
     gap: .8rem;
+    transition: all 900ms ease;
 }
 
 .icon1 {
-    margin-left: -30px;
+    margin-left: 20px;
 }
 
 .icon2 {
-    margin-left: -15px;
+    margin-left: 30px;
 }
 
 .icon3 {
-    margin-left: -3px;
+    margin-left: 40px;
 }
 
 .rotate {
-    transform-origin: top left;
+    transform-origin: 0px 0px;
     transform-style: preserve-3d;
     transform: rotate(-18deg);
-    transition: all 700ms ease;
 }
+
 
 .invisible {
     margin-left: -200px;
-    transition: all 700ms ease;
 }
