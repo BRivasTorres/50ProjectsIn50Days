@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7158E2;
+}
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -200px;
+    border-radius: 2px;
+    overflow: hidden;
+    color: #333;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 800ms ease;
+}
+
+.search {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.input {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 2rem;
+    outline: none;
+    border: transparent;
+    display: none;
+}
+
+.icon {
+    font-size: 2rem;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search:hover,
+.search:active {
+    cursor: pointer;
+}
