@@ -7,3 +7,4 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 Day1🌅: Slider Card === https://expanding-cards-day1.netlify.app/ <br>
 Day2🚶🏼‍♂️: Progress Steps === https://rotating-navigation-day3.netlify.app/ <br>
 Day3⭕: Rotating Navigation === https://rotating-navigation-day3.netlify.app/ <br>
+Day4🔎: Hidden Search === https://hidden-search-day4.vercel.app/
