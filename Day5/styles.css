@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./img.jpg") no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff10;
+    animation: blur 4s linear 0s 1 normal none;
+}
+
+.porcentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2rem;
+    animation: opacity 4s linear 0s forwards;
+}
+
+@keyframes blur {
+    0% {
+        backdrop-filter: blur(30px);
+    }
+
+    20% {
+        backdrop-filter: blur(25px);
+    }
+
+    40% {
+        backdrop-filter: blur(20px);
+    }
+
+    60% {
+        backdrop-filter: blur(15px);
+    }
+
+    80% {
+        backdrop-filter: blur(10px);
+    }
+
+    100% {
+        backdrop-filter: blur(0px);
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .80;
+    }
+
+    80% {
+        opacity: .50;
+    }
+
+    100% {
+        opacity: .10;
+    }
+}
