@@ -9,3 +9,4 @@ Day2🚶🏼‍♂️: Progress Steps === https://rotating-navigation-day3.netli
 Day3⭕: Rotating Navigation === https://rotating-navigation-day3.netlify.app/ <br>
 Day4🔎: Hidden Search === https://hidden-search-day4.vercel.app/ <br>
 Day5🌅: Blurry Loading === https://blurry-loading-day5.vercel.app/ <br>
+Day6⚓: Scroll Animation === https://scroll-animation-day6.vercel.app/ <br>
