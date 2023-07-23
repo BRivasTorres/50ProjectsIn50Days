@@ -17,16 +17,19 @@ body {
     width: 50%;
     max-width: 400px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
 }
 
 .title {
     text-align: center;
     font-weight: 700;
     font-size: 2rem;
-    margin-top: 1rem;
+    margin: 1rem 0;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .content {
@@ -43,4 +46,29 @@ body {
     -webkit-box-shadow: 0px 10px 15px -6px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 10px 15px -6px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 10px 15px -6px rgba(0, 0, 0, 0.75);
+}
+
+.content1 {
+    position: relative;
+    animation: animationEven 1s ease forwards;
+}
+
+@keyframes animationOdd {
+    0% {
+        left: 1400px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes animationEven {
+    0% {
+        left: -1400px;
+    }
+
+    100% {
+        left: 0px;
+    }
 }
