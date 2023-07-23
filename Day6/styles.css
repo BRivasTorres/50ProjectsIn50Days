@@ -48,7 +48,17 @@ body {
     box-shadow: 0px 10px 15px -6px rgba(0, 0, 0, 0.75);
 }
 
-.content1 {
+.content-wrapper .content:not(:first-child) {
+    position: relative;
+    left: -1400px;
+}
+
+.odd {
+    position: relative;
+    animation: animationOdd 1s ease forwards;
+}
+
+.even {
     position: relative;
     animation: animationEven 1s ease forwards;
 }
