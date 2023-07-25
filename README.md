@@ -10,3 +10,4 @@ Day3⭕: Rotating Navigation === https://rotating-navigation-day3.netlify.app/ <
 Day4🔎: Hidden Search === https://hidden-search-day4.vercel.app/ <br>
 Day5🌅: Blurry Loading === https://blurry-loading-day5.vercel.app/ <br>
 Day6⚓: Scroll Animation === https://scroll-animation-day6.vercel.app/ <br>
+Day7📄: Split Landing Page === https://codepen.io/BRivasTorres/pen/MWzqoaj <br> 
