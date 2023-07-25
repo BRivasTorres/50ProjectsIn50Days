@@ -15,6 +15,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 700ms ease;
+}
+
+.img:hover {
+    width: 150%;
+    transition-delay: 400ms;
+}
+
 .img1 {
     width: 50%;
     background: url("./img1.jpg");
@@ -27,18 +39,60 @@
     background-size: cover;
 }
 
+.paint {
+    width: 100%;
+    height: 100%;
+    opacity: .80;
+}
+
+.paint-playstation {
+    background-color: #7C7BEA;
+    /* background-color: red; */
+}
+
+.paint-xbox {
+    background-color: #2A292A;
+    /* background-color: aqua; */
+}
+
+.text {
+    position: absolute;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
 .title {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #fff;
     font-weight: 700;
 }
 
 .btn {
     font-size: 1rem;
+    font-weight: 900;
     text-transform: capitalize;
     padding: 1rem;
-    width: 12rem;
-    height: 4rem;
-    border: #fff;
+    width: 14rem;
+    height: 5rem;
+    border: 4px solid #fff;
     color: #fff;
+    background-color: transparent;
+    transition: all 200ms ease;
+}
+
+.btn1:hover,
+.btn1:active {
+    background-color: #5754EC;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2:hover,
+.btn2:active {
+    background-color: #1C7A1C;
+    border: none;
+    cursor: pointer;
 }
