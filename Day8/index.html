@@ -9,18 +9,19 @@
 </head>
 
 <body>
-    <form action="">
-        <h2>Please Login</h2>
-        <label for="email">
-            <span>E</span>
-            <span>m</span>
-            <span>a</span>
-            <span>i</span>
-            <span>l</span>
+    <form action="" class="form">
+        <h2 style="text-align: center; font-size:2rem;">Please Login</h2>
+        <input type="email" id="email" name="email" class="input input-email" required>
+        <label for="email" class="email-label">
+            <span id="span-email">E</span>
+            <span id="span-email">m</span>
+            <span id="span-email">a</span>
+            <span id="span-email">i</span>
+            <span id="span-email">l</span>
         </label>
-        <input type="email" id="email" name="email" required>
 
-        <label for="password">
+        <input type="password" id="password" name="password" class="input" required>
+        <label for="password" class="password-label" style="margin-top: 3rem;">
             <span>P</span>
             <span>a</span>
             <span>s</span>
@@ -30,12 +31,12 @@
             <span>r</span>
             <span>d</span>
         </label>
-        <input type="password" id="password" name="password" required>
 
-        <button type="submit">Login</button>
+        <button type="submit" class="btn-submit">Login</button>
 
-        <p>Don't have an account?<span>Register</span></p>
+        <p style="margin-top: 2rem;">Don't have an account?<span class="register">Register</span></p>
     </form>
+    <script src="index.js"></script>
 </body>
 
 </html>
