@@ -14,3 +14,4 @@ Day7📄: Split Landing Page === https://codepen.io/BRivasTorres/pen/MWzqoaj <br
 Day8📝: Form Wave === https://codepen.io/BRivasTorres/pen/Jjeawow <br> 
 Day9🔊: Sound Board === https://sound-board-day9.netlify.app/ <br> 
 Day10😄: Dad Jokes === https://dad-jokes-day10.netlify.app/ <br> 
+Day11⌨️: Key Events === https://key-events-day11.netlify.app/ <br>
