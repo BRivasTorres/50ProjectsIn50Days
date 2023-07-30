@@ -18,7 +18,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* border: 2px solid red; */
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -29,16 +28,22 @@ body {
     height: 80px;
     border: 1px solid #999999;
     font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.span {
+    position: absolute;
+    top: -30px;
+    color: #999999;
+    font-weight: 400;
+    text-align: center;
 }
 
 .initialText {
     width: 60%;
     margin: 0 auto;
     font-weight: 400;
-
 }
 
 .event {
@@ -53,7 +58,3 @@ body {
 .visible {
     display: block;
 }
-
-/* TODO 
-    Aplicar correctamente el display none
-*/
