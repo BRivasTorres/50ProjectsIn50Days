@@ -16,7 +16,6 @@ body {
 .main {
     margin: 3rem auto;
     width: 50%;
-    border: 1px solid red;
 }
 
 .title {
@@ -31,8 +30,31 @@ body {
     border-radius: 10px;
     margin: 1.5rem 0;
     padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 90%;
+}
+
+.icons {
+    margin: .5rem 1rem 0 0;
+    font-size: 1.9rem;
+}
+
+.icons:hover,
+.icons:active {
+    cursor: pointer;
 }
 
 .active {
+    display: block;
+}
+
+.desactive {
     display: none;
 }
