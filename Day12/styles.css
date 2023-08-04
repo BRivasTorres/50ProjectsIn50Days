@@ -38,11 +38,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-    width: 90%;
+    width: 80%;
+    max-width: 80%;
 }
 
 .icons {
-    margin: .5rem 1rem 0 0;
+    margin: .4rem .8rem 0 0;
     font-size: 1.9rem;
 }
 
