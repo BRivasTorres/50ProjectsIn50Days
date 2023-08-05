@@ -10,4 +10,29 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #2B88F0;
+}
+
+.main {
+    width: 50%;
+    margin: 9rem auto;
+}
+
+.title {
+    text-align: center;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.choices-text {
+    resize: none;
+    width: 100%;
+    height: 150px;
+    padding: 1rem;
+}
+
+.tags {
+    width: 100%;
 }
