@@ -16,6 +16,7 @@ body {
 .main {
     width: 50%;
     margin: 9rem auto;
+    max-width: 50%;
 }
 
 .title {
@@ -34,5 +35,17 @@ body {
 }
 
 .tags {
+    margin: 2.5rem 0 0 0;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    gap: 1rem;
+}
+
+.tags>span {
+    background-color: #F0932B;
+    border-radius: 50px;
+    color: #fff;
+    padding: 1.5rem;
 }
