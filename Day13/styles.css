@@ -49,3 +49,8 @@ body {
     color: #fff;
     padding: 1.5rem;
 }
+
+
+.curr-choice {
+    background-color: #273C75;
+}
