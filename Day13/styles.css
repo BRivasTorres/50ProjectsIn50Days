@@ -51,6 +51,6 @@ body {
 }
 
 
-.curr-choice {
+.tag.curr-choice {
     background-color: #273C75;
 }
