@@ -59,7 +59,6 @@ function pickRandomTag() {
     return tags[Math.floor(Math.random() * tags.length)]
 }
 
-
 function higlightTag(tag) {
     tag.classList.add("curr-choice")
     console.log(tag)
