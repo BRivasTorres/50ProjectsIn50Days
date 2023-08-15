@@ -17,3 +17,4 @@ Day10😄: Dad Jokes === https://dad-jokes-day10.netlify.app/ <br>
 Day11⌨️: Key Events === https://key-events-day11.netlify.app/ <br>
 Day12❓: https://faq-collapse-day12.netlify.app/ <br>
 Day13💥: https://random-choice-picker-day13.netlify.app/ <br>
+Day14🧭: https://animated-navigation-day14.netlify.app/ <br>
