@@ -29,27 +29,31 @@ body {
     font-size: 1rem;
 }
 
-.remained {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cup {
     border: 5px solid #144FC6;
     background-color: #FFFFFF;
     color: #144FC6;
     border-radius: 0 0 30px 30px;
-}
-
-.remainded-amount {
-    width: 150px;
-    height: 350px;
+    height: 300px;
+    width: 20%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
+    /* flex: 1; */
+}
+
+.porcentage {
+    /* visibility: hidden; */
+    width: 100%;
+    color: #144FC6;
+    background-color: #6AB3F8;
+    border-radius: 0 0 20px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.remainded-amount:hover {
+    cursor: pointer;
 }
 
 .cups {
@@ -67,8 +71,14 @@ body {
     border-radius: 0 0 15px 15px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.cup-small:hover {
+    cursor: pointer;
 }
 
 .active {
     background-color: #6AB3F8;
+    transition: all ease 300ms;
 }
