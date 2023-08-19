@@ -2,17 +2,19 @@ let twiter = document.querySelector(".twt");
 let youTube = document.querySelector(".yt");
 let faceBook = document.querySelector(".fb");
 
-const twiterCount = () => {
+const updateCound = (element, followers) => {
 	setTimeout(() => {
-		let currCount = parseInt(elemnts.innerHTML, 10);
+		let currCount = parseInt(element.innerHTML, 10);
 		let newCount = currCount + 100;
-		twiter.innerHTML = `${newCount}`;
-		if (newCount < 12000) {
-			twiterCount();
+		element.innerHTML = `${newCount} `;
+		if (newCount < followers) {
+			updateCound(element, followers);
 		}
 	}, 10);
 };
 
 window.addEventListener("DOMContentLoaded", () => {
-	twiterCount();
+	updateCound(twiter, 12000);
+	updateCound(youTube, 5000);
+	updateCound(faceBook, 7500);
 });
