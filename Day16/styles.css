@@ -57,6 +57,9 @@ body {
     background-color: #6AB3F8;
     font-weight: bold;
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .remainded-amount:hover {

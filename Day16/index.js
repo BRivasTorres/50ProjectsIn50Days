@@ -1,5 +1,5 @@
 const cupContainer = document.querySelector(".cups");
-const cups = document.querySelectorAll(".cups-small");
+const cups = document.querySelectorAll(".cup-small");
 const porcentage = document.querySelector(".porcentage");
 const remained = document.querySelector(".remained");
 const remainedAmount = document.querySelector(".remained-amount");
@@ -25,20 +25,20 @@ cupContainer.addEventListener("click", (event) => {
 });
 
 const updateBigCup = () => {
-	const activeCups = document.querySelector(".cup-small.active").length;
+	const activeCups = document.querySelectorAll(".cup-small.active").length;
 	const totalCups = cups.length;
 
 	if (activeCups !== 0) {
 		porcentage.style.visibility = "visible";
 		porcentage.style.height = `${(activeCups / totalCups) * 330}px`;
-		porcentage.innerText = `${(activeCups / totalCups) * 100} %`;
+		porcentage.innerHTML = `${(activeCups / totalCups) * 100} %`;
 	}
 
 	if (activeCups === totalCups) {
 		remained.style.visibility = "hidden";
-		remained.sytle.height = 0;
+		remained.style.height = "0";
 	} else {
 		remained.style.visibility = "visible";
-		remainedAmount.innerText = `${2 - (250 * activeCups) / 1000}`;
+		remained.innerHTML = `${2 - (250 * activeCups) / 1000}L`;
 	}
 };
