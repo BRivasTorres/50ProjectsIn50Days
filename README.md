@@ -5,9 +5,11 @@ Repository created to carry out the projects proposed by: <br>
 In order to polish and reinforce certain knowledge and practices in these tools, which will be mainly: HTML, CSS and JS.
 
 Day1🌅: Slider Card === https://expanding-cards-day1.netlify.app/ <br>
-<a href="https://ibb.co/WKmx2yD"><img src="https://i.ibb.co/Bs0zCZ4/Captura-de-pantalla-2023-09-03-091436.png" alt="Captura-de-pantalla-2023-09-03-091436" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'>montar foto online</a><br />
-Day2🚶🏼‍♂️: Progress Steps === https://rotating-navigation-day3.netlify.app/ <br>
+<a href="https://ibb.co/mCPrNHJ"><img src="https://i.ibb.co/mCPrNHJ/Captura-de-pantalla-2023-09-03-092442.png" alt="Captura-de-pantalla-2023-09-03-092442" border="0"></a> <br />
+Day2🚶🏼‍♂️: Progress Steps === https://progress-steps-day2.netlify.app/ <br>
+<a href="https://ibb.co/dpRBF9M"><img src="https://i.ibb.co/dpRBF9M/Captura-de-pantalla-2023-09-03-092728.png" alt="Captura-de-pantalla-2023-09-03-092728" border="0"></a> <br />
 Day3⭕: Rotating Navigation === https://rotating-navigation-day3.netlify.app/ <br>
+<a href="https://ibb.co/wcZrvV2"><img src="https://i.ibb.co/wcZrvV2/Captura-de-pantalla-2023-09-03-091818.png" alt="Captura-de-pantalla-2023-09-03-091818" border="0"></a> <br />
 Day4🔎: Hidden Search === https://hidden-search-day4.vercel.app/ <br>
 Day5🌅: Blurry Loading === https://blurry-loading-day5.vercel.app/ <br>
 Day6⚓: Scroll Animation === https://scroll-animation-day6.vercel.app/ <br>
