@@ -38,3 +38,55 @@ body{
 .input:focus {
     background-color: #22254B;
 }
+
+.movies {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 3rem;
+    transition: all 400ms ease;
+}
+
+.card-div {
+    border: 2px solid red;
+    width: 300px;
+    background-color: #373B69;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    color: #E8EEEE;
+}
+
+.card-average {
+    background-color: #22254B;
+    padding: .5rem;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.info-movie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.card-overview {
+    /* display: none; */
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    max-width: 100%;
+    transition: transform 0.3s ease-in;
+}
+
+.overview-h2 {
+    margin: 1rem 0;
+}
