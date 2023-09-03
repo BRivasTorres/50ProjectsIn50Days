@@ -1,13 +1,18 @@
 let moviesWrapper = document.querySelector(".movies");
+let inputSearch = document.querySelector("input");
+let SEARCH_API =
+	"https://api.themoviedb.org/3/search/movie?query=Jack+Reacher&api_key=a22a574f9c8d1ac493ad479d8ab44fc4";
+let INITIAL_API =
+	"https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=1";
+let search = "";
 
-const moviesData = async () => {
+const moviesData = async (url) => {
 	try {
-		const response = await fetch(
-			"https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3fd2be6f0c70a2a598f084ddfb75487c&page=1"
-		);
+		const response = await fetch(url);
 		if (response.status === 200) {
 			const data = await response.json();
 			moviesCard(data.results);
+			search = "";
 		} else {
 			console.log(response.status);
 		}
@@ -18,7 +23,6 @@ const moviesData = async () => {
 
 const moviesCard = (arr) => {
 	arr.forEach((element) => {
-		console.log(element);
 		const div = document.createElement("div");
 		div.className = "card-div";
 
@@ -61,4 +65,20 @@ const moviesCard = (arr) => {
 	});
 };
 
-moviesData();
+moviesData(INITIAL_API);
+inputSearch.addEventListener("input", (e) => {
+	search = e.target.value;
+	console.log(search);
+});
+
+inputSearch.addEventListener("keydown", (e) => {
+	if (e.key === "Enter") {
+		if (search !== "") {
+			moviesData(
+				`https://api.themoviedb.org/3/search/movie?query=${search}&api_key=a22a574f9c8d1ac493ad479d8ab44fc4`
+			);
+		} else {
+			window.location.reload();
+		}
+	}
+});
