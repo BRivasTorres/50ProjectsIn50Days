@@ -68,7 +68,6 @@ const moviesCard = (arr) => {
 moviesData(INITIAL_API);
 inputSearch.addEventListener("input", (e) => {
 	search = e.target.value;
-	console.log(search);
 });
 
 inputSearch.addEventListener("keydown", (e) => {
