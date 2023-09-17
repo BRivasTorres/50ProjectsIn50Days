@@ -24,11 +24,9 @@ let currentNext = 0;
 prevBtn.addEventListener("click", () => {
 	currentPrev < 1 ? (currentPrev = data.length - 1) : currentPrev--;
 	document.body.style.backgroundImage = `url(${data[currentPrev].url})`;
-	console.log(currentPrev);
 });
 
 nextBtn.addEventListener("click", () => {
 	currentNext >= data.length - 1 ? (currentNext = 0) : currentNext++;
 	document.body.style.backgroundImage = `url(${data[currentNext].url})`;
-	console.log(currentNext, data.length);
 });
