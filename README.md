@@ -24,3 +24,4 @@ Day14🧭: Animated Navigation === https://animated-navigation-day14.netlify.app
 Day15∆: Incrementing Counter === https://incrementing-counter-day15.netlify.app/ <br>
 Day16💧: Drink Water === https://drink-water-day16.netlify.app/ <br>
 Day17🎥: Movie App === https://movie-app-day17.netlify.app/ <br>
+Day18🎚️: Slider Background === https://background-slider-day18.netlify.app/ <br>
