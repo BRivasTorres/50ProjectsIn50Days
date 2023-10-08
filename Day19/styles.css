@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root {
+    --light-color: white;
+    --dark-color: black;
+}
+
 *,
 *::after,
 *::before {
@@ -8,28 +13,47 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Roboto", sans-serif;
+    transition: all 700ms ease-in;
 }
 
+.dark-theme {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.light-theme {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
 
 .main {
     width: 40%;
-    margin: 6rem auto;
+    margin: 4rem auto;
     border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 700ms ease-in;
 }
 
 .theme-btn {
-    background-color: black;
-    color: white;
+    background-color: var(--dark-color);
+    color: var(--light-color);
     font-size: 1.2rem;
     font-weight: 400;
     border-radius: 5px;
     padding: 5px;
     margin: 0 auto;
+    border: none;
+    outline: transparent;
+}
+
+.theme-btn:hover,
+.theme-btn:active {
+    cursor: pointer;
 }
 
 .hour {
@@ -40,4 +64,27 @@ body {
 .date {
     color: #C0BBB8;
     font-size: 1.5rem;
+}
+
+.clock {
+    border: 2px solid red;
+    margin: 2rem 0 2rem 0;
+}
+
+.clock-hour {
+    background-color: var(--dark-color);
+    width: 5px;
+    height: 80px;
+}
+
+.clock-minute {
+    background-color: var(--dark-color);
+    width: 5px;
+    height: 120px;
+}
+
+.clock-seconds {
+    background-color: red;
+    width: 5px;
+    height: 120px;
 }
