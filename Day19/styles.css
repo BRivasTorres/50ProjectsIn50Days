@@ -32,7 +32,6 @@ body {
 .main {
     width: 40%;
     margin: 4rem auto;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,25 +65,50 @@ body {
     font-size: 1.5rem;
 }
 
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .clock {
-    border: 2px solid red;
     margin: 2rem 0 2rem 0;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.needle {
+    background-color: var(--dark-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 65px;
+    width: 3px;
+    transform-origin: bottom center;
+    transition: all 0.5s ease-in;
 }
 
 .clock-hour {
     background-color: var(--dark-color);
     width: 5px;
     height: 80px;
+    transform: translate(-50%, -100%) rotate(0deg);
 }
 
 .clock-minute {
     background-color: var(--dark-color);
     width: 5px;
-    height: 120px;
+    height: 100px;
+    transform: translate(-50%, -100%) rotate(0deg);
 }
 
 .clock-seconds {
     background-color: red;
     width: 5px;
-    height: 120px;
+    height: 100px;
+    transform: translate(-50%, -100%) rotate(0deg);
 }
+
+
