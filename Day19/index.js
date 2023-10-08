@@ -62,7 +62,10 @@ const setTime = () => {
 	)}deg)`;
 
 	date.innerHTML = currDate;
-	hour.innerHTML = `${HOURS}:${MINUTES} ${period}`;
+	hour.innerHTML = `${HOURS}:${MINUTES.toString().padStart(
+		2,
+		"0"
+	)} ${period}`;
 };
 
 const scale = (num, in_min, in_max, out_min, out_max) => {
