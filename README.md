@@ -5,7 +5,7 @@ Repository created to carry out the projects proposed by: <br>
 In order to polish and reinforce certain knowledge and practices in these tools, which will be mainly: HTML, CSS and JS.
   
 Day1🌅: Slider Card === https://expanding-cards-day1.netlify.app/ <br>
-<a href="https://ibb.co/mCPrNHJ"><img src="https://i.ibb.co/mCPrNHJ/Captura-de-pantalla-2023-09-03-092442.png" alt="img1" width="250px" ></a> <br />
+<img src="https://i.ibb.co/mCPrNHJ/Captura-de-pantalla-2023-09-03-092442.png" alt="img1" width="250px" > <br />
 Day2🚶🏼‍♂️: Progress Steps === https://progress-steps-day2.netlify.app/ <br>
 <a href="https://ibb.co/dpRBF9M"><img src="https://i.ibb.co/dpRBF9M/Captura-de-pantalla-2023-09-03-092728.png" alt="img2" width="250px"></a> <br />
 Day3⭕: Rotating Navigation === https://rotating-navigation-day3.netlify.app/ <br>
