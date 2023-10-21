@@ -35,8 +35,13 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <a href="https://animated-navigation-day14.netlify.app/"><img src="https://i.ibb.co/m8wTgK3/img14.png" alt="img14" width="300px"></a> <br>
 <h3>Day15∆ : Incrementing Counter</h3>
 <a href="https://incrementing-counter-day15.netlify.app/"><img src="https://i.ibb.co/RcrTpHB/img15.png" alt="img15" width="300px"></a> <br>
-Day16💧: Drink Water === https://drink-water-day16.netlify.app/ <br>
-Day17🎥: Movie App === https://movie-app-day17.netlify.app/ <br>
-Day18🎚️: Slider Background === https://background-slider-day18.netlify.app/ <br>
-Day19🕒: Theme Clock === https://theme-clock-day19.netlify.app/ <br>
-Day20▶️: Button Ripplet Effect === https://button-ripple-effect-day20.netlify.app/ <br>
+<h3>Day16💧: Drink Water</h3>
+<a href="https://drink-water-day16.netlify.app/"><img src="https://i.ibb.co/274kCXC/16.png" alt="16" width="300px" /></a>
+<h3>Day17🎥: Movie App</h3>
+<a href="https://movie-app-day17.netlify.app/"><img src="https://i.ibb.co/ChstRqG/17.png" alt="17" width="300px"></a>
+<h3>Day18🎚️: Slider Background</h3>
+<a href="https://background-slider-day18.netlify.app/"><img src="https://i.ibb.co/93BxDKj/18.png" alt="18" width="300px"></a>
+<h3>Day19🕒: Theme Clock</h3>
+<a href="https://theme-clock-day19.netlify.app/"><img src="https://i.ibb.co/fCGxsCy/19.png" alt="19" width="300px"></a>
+<h3>Day20▶️: Button Ripplet Effect</h3>
+<a href="https://button-ripple-effect-day20.netlify.app/"><img src="https://i.ibb.co/9VB554L/20.png" alt="20" width="300px"></a>
