@@ -5,12 +5,18 @@
 body {
     background-color: steelblue;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
     margin: 0;
+}
+
+.wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .boxes {
@@ -24,6 +30,7 @@ body {
 .img {
     height: 145px;
     width: 145px;
+    max-width: 145px;
     cursor: pointer;
 }
 
