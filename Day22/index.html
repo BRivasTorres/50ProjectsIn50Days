@@ -4,11 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Drawing App</title>
 </head>
 
 <body>
+    <div class="wrapper">
+        <canvas id="canvas" class="canvas"></canvas>
 
+        <div class="toolbar">
+            <div class="toolbar-controller">
+                <button class="minus controllers">-</button>
+                <div class="count controllers">10</div>
+                <button class="plus controllers">+</button>
+                <input type="color" value="#F875AA" class="color">
+            </div>
+            <div>
+                <button class="clear controllers">x</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
