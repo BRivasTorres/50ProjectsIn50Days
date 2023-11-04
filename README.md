@@ -51,4 +51,5 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <a href="https://drawing-app-day22.netlify.app/"><img src="https://i.ibb.co/v4kGr4Z/22.png" alt="22" width="400px" ></a>
 <h3>Day23🔄: Kinetic Loader </h3>
 <a href="https://kinetic-loader-day23.netlify.app/"><img src="https://i.ibb.co/ZKHRYN9/23.png" alt="23" width="400px"></a>
-<<
+<h3>Day24󠀠󠀠: Content Placeholder </h3>
+<a href="https://content-placeholder-day24.netlify.app/"><img src="https://i.ibb.co/5c8cQdT/24.png" alt="24" border="0"></a>
