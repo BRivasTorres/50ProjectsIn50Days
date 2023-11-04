@@ -49,3 +49,6 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <a href="https://drag-n-drop-day21.netlify.app/"><img src="https://i.ibb.co/6n4LqqL/21.png" alt="21" width="400px"></a>
 <h3>Day22✏️: Drawing App </h3>
 <a href="https://drawing-app-day22.netlify.app/"><img src="https://i.ibb.co/v4kGr4Z/22.png" alt="22" width="400px" ></a>
+<h3>Day23🔄: Kinetic Loader </h3>
+<a href="https://kinetic-loader-day23.netlify.app/"><img src="https://i.ibb.co/ZKHRYN9/23.png" alt="23" width="400px"></a>
+<<
