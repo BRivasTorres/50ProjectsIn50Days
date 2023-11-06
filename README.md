@@ -52,4 +52,6 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <h3>Day23🔄: Kinetic Loader </h3>
 <a href="https://kinetic-loader-day23.netlify.app/"><img src="https://i.ibb.co/ZKHRYN9/23.png" alt="23" width="400px"></a>
 <h3>Day24󠀠󠀠: Content Placeholder </h3>
-<a href="https://content-placeholder-day24.netlify.app/"><img src="https://i.ibb.co/5c8cQdT/24.png" alt="24" border="0"></a>
+<a href="https://content-placeholder-day24.netlify.app/"><img src="https://i.ibb.co/5c8cQdT/24.png" alt="24" width="400px"></a>
+<h3>Day25: Sticky Navigation</h3>
+<a href="https://sticky-navigation-day25.netlify.app/"><img src="https://i.ibb.co/FBGfRsW/25.png" alt="25" width="400px"></a>
