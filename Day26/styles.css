@@ -1,0 +1,42 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.text {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #FFB866;
+}
+
+.text>div>h2 {
+    font-size: 2.5rem;
+}
+
+.text>div>span {
+    font-size: 1.5rem;
+}
+
+.imgs {
+    width: 70%;
+    min-width: 600px;
+    max-width: 1200px;
+}
+
+.imgs__img {
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.hidden {
+    display: none;
+}
