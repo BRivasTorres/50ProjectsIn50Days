@@ -6,15 +6,18 @@
 
 .wrapper {
     display: flex;
+    min-width: 500px;
 }
 
 .text {
     width: 30%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     background-color: #FFB866;
+    padding: 1.3rem;
 }
 
 .text>div>h2 {
@@ -25,10 +28,45 @@
     font-size: 1.5rem;
 }
 
+.btns {
+    
+}
+
+.btns>button>i {
+    font-size: 1.8rem;
+    color: #AAAAAA;
+}
+
+.btns>button {
+    padding: .5rem;
+    background-color: #FFFFFF;
+    border: none;
+    outline: transparent;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+}
+
+.btns__next {
+    border-radius: 0 5px 5px 0;
+    transform: translateY(-100%);
+}
+
+.btns__prev {
+    border-radius: 5px 0 0 5px;
+    transform: translateX(-100%);
+}
+
+.btns>button:hover,
+.btns>button>i:hover {
+    cursor: pointer;
+    color: black;
+}
+
 .imgs {
     width: 70%;
     min-width: 600px;
-    max-width: 1200px;
+    max-width: 1800px;
 }
 
 .imgs__img {
@@ -40,3 +78,4 @@
 .hidden {
     display: none;
 }
+
