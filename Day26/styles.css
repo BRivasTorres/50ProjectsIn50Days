@@ -1,3 +1,10 @@
+:root {
+    --bg-eagle: #FFB866;
+    --bg-castle: #252E33;
+    --bg-sky : #2A86BA;
+    --bg-flower: #FD3555;
+}
+
 *, *::after, *::before {
     margin: 0;
     padding: 0;
@@ -10,14 +17,14 @@
 }
 
 .text {
-    width: 30%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 30%;   
+}
+
+.text>div {
     color: white;
-    background-color: #FFB866;
+    height: 100%;
     padding: 1.3rem;
+    transition: transform 0.5s ease-in-out;
 }
 
 .text>div>h2 {
@@ -28,8 +35,21 @@
     font-size: 1.5rem;
 }
 
-.btns {
+.text__eagle {
+    background-color: var(--bg-eagle);
+}
+
+.text__castle {
+    background-color: var(--bg-castle);
+}
+
+.text__sky {
+    background-color: var(--bg-sky);
     
+}
+
+.text__flower {
+    background-color: var(--bg-flower);
 }
 
 .btns>button>i {
