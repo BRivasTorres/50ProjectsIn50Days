@@ -11,13 +11,20 @@
     box-sizing: border-box;
 }
 
-.wrapper {
-    display: flex;
-    min-width: 500px;
+.wrappper {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 .text {
-    width: 30%;   
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease-in-out;
 }
 
 .text>div {
@@ -63,8 +70,9 @@
     border: none;
     outline: transparent;
     position: absolute;
-    left: 30%;
+    left: 35%;
     top: 50%;
+    z-index: 100;
 }
 
 .btns__next {
@@ -84,9 +92,12 @@
 }
 
 .imgs {
-    width: 70%;
-    min-width: 600px;
-    max-width: 1800px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    transition: transform 0.5s ease-in-out;
 }
 
 .imgs__img {
@@ -98,4 +109,3 @@
 .hidden {
     display: none;
 }
-

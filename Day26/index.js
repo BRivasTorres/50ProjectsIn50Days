@@ -1,30 +1,40 @@
+const wrapper = document.querySelector(".wrapper");
+const textWrapper = document.querySelector(".text");
+const imgsWrapper = document.querySelector(".imgs");
 const prevBtn = document.querySelector(".btns__prev");
 const nextBtn = document.querySelector(".btns__next");
 const texts = document.querySelectorAll(".text>div");
 const imgs = document.querySelectorAll(".imgs__img");
 
-let i = 1;
+let i = 0;
 let t = [...texts];
 let im = [...imgs];
+const height = wrapper.clientHeight;
 
 prevBtn.addEventListener("click", () => {
-	if (i === 0) i = t.length;
-	if (i !== 0) {
-		t[i - 1].classList.add("hidden");
-		im[i - 1].classList.add("hidden");
-	}
-	t[i].classList.remove("hidden");
-	im[i].classList.remove("hidden");
-	i--;
+	showPrev(t, im);
 });
 
 nextBtn.addEventListener("click", () => {
-	if (i >= 1) {
-		t[i - 1].classList.add("hidden");
-		im[i - 1].classList.add("hidden");
-	}
-	if (i === t.length) i = 0;
-	t[i].classList.remove("hidden");
-	im[i].classList.remove("hidden");
-	i++;
+	showNext(t, im);
 });
+
+const showNext = (arr1, arr2) => {
+	i++;
+	if (i === arr1.length) i = 0;
+	toggleVisibility(arr1, i);
+	toggleVisibility(arr2, i);
+};
+
+const showPrev = (arr1, arr2) => {
+	i--;
+	if (i < 0) i = arr1.length - 1;
+	toggleVisibility(arr1, i);
+	toggleVisibility(arr2, i);
+};
+
+const toggleVisibility = (arr, idx) => {
+	arr.forEach((item, i) => {
+		item.classList.toggle("hidden", i !== idx);
+	});
+};
