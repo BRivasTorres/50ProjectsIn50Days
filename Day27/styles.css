@@ -1,0 +1,27 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #663399;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+}
+
+.notification {
+    color: #663399;
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: transparent;
+    border-radius: 5px;
+}
+
+.notification:hover {
+    cursor: pointer;
+}
