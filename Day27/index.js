@@ -1,5 +1,6 @@
 const notificationBtn = document.querySelector(".btn");
 const notificationsWrapper = document.querySelector(".notifications");
+
 const notifications = {
 	0: "Notification One",
 	1: "Notification Two",
@@ -12,7 +13,6 @@ let col = 0;
 
 notificationBtn.addEventListener("click", () => {
 	showNotify();
-	removeNotify();
 });
 
 const color = () => {
@@ -35,8 +35,14 @@ const showNotify = () => {
 	currNoti === 3 ? (currNoti = 0) : currNoti++;
 };
 
+let delay = 1400;
 const removeNotify = () => {
-	const divs = document.querySelectorAll(".notification");
+	let divs = document.querySelectorAll(".notification");
+	if (divs.length > 0) {
+		divs[0].parentNode.removeChild(divs[0]);
+	}
+	delay *= 0.9;
+	setTimeout(removeNotify, delay);
 };
 
-//TODO eliminar a cada cierto tiempo el ultimo div en la cola.
+setTimeout(removeNotify, delay);
