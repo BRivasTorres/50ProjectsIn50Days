@@ -55,3 +55,7 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <a href="https://content-placeholder-day24.netlify.app/"><img src="https://i.ibb.co/5c8cQdT/24.png" alt="24" width="400px"></a>
 <h3>Day25: Sticky Navigation</h3>
 <a href="https://sticky-navigation-day25.netlify.app/"><img src="https://i.ibb.co/FBGfRsW/25.png" alt="25" width="400px"></a>
+<h3>Day26: Double Vertical Slider</h3>
+<a href="https://double-verticald-slider-day26.netlify.app/"><img src="https://i.ibb.co/xMNjbQF/26.png" alt="26" width="400px"></a>
+<h3>Day27: Toas Notification </h3>
+<a href="https://toast-notification-day27.netlify.app/"><img src="https://i.ibb.co/kyC3x5G/27.png" alt="27" width="400px"></a>
