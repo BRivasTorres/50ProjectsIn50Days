@@ -12,8 +12,10 @@ body {
     width: 100svw;
     height: 100svh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 3rem;
 }
 
 .github-profile {
@@ -30,6 +32,7 @@ body {
 .github-profile__search {
     background-color: #4C2885;
     width: 80%;
+    max-width: 700px;
     margin: auto 0;
     border: none;
     outline: transparent;
@@ -39,25 +42,47 @@ body {
 }
 .github-profile__search::placeholder {
     font-weight: 400;
-    color: white;
+    color: #BBB2B1;
 }
 
 .github-profile__main {
     width: 100%;
+    max-width: 1000px;
     background-color: #4C2885;
-    height: 350px;
+    height: 400px;
     display: flex;
     gap: 2rem;
     padding: 2rem;
     border-radius: 20px;
 }
 
+.github-profile__main--empty {
+    width: 40%;
+    max-width: 1000px;
+    background-color: #4C2885;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-profile__main--empty >h2{ 
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
 .github-profile__img {
     width: 30%;
 }
 
+.github-profile__img > img {
+    width: 100%;
+    border-radius: 50%;
+    border: 10px solid #2A2A72;
+}
+
 .github-profile__data {
-    border: 2px solid red;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -77,12 +102,12 @@ body {
     font-size: 1.4rem;
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 80%;
     font-weight: 500;
 }
 
 .github-profile__repositoris {
-    font-size: 1.5rem;    
+    font-size: 1rem;    
     display: flex;
     flex-wrap: wrap;
     gap: 1rem ;
