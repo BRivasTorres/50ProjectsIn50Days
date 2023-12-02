@@ -59,3 +59,5 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <a href="https://double-verticald-slider-day26.netlify.app/"><img src="https://i.ibb.co/xMNjbQF/26.png" alt="26" width="400px"></a>
 <h3>Day27: Toas Notification </h3>
 <a href="https://toast-notification-day27.netlify.app/"><img src="https://i.ibb.co/kyC3x5G/27.png" alt="27" width="400px"></a>
+<h3>Day28: Github Profiles </h3>
+<a href="https://github-profiles-day28.netlify.app/"><img src="https://i.ibb.co/cyXk1gJ/28.png" alt="28" width="400px"></a>
