@@ -1,0 +1,42 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 40%;
+    max-width: 1400px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.main__h2--span {
+    color: red;
+}
+
+.main__h4 {
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+.main__btn {
+    border: none;
+    outline: transparent;
+}
+
+.main__img {
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.59);
+        -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.59);
+        -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.59);
+}
