@@ -19,7 +19,7 @@
     font-size: 2rem;
 }
 
-.main__h2--span {
+.main__h2--i {
     color: red;
 }
 
@@ -28,15 +28,28 @@
     font-size: 1.3rem;
 }
 
-.main__btn {
-    border: none;
-    outline: transparent;
+.main__div {
+    height: 350px;
+    width: 550px;
+    background: url('./img.webp') no-repeat center center/cover;
+    margin: auto;
+    cursor: pointer;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
 }
 
-.main__img {
-    width: 100%;
-    cursor: pointer;
-    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.59);
-        -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.59);
-        -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.59);
+.main__div .fa-heart  {
+    color: red;
+    position: absolute;
+    animation: grow 0.6s linear;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+    to {
+        transform: translate(-50%, -50%) scale(10);
+        opacity: 0;
+    }
 }
