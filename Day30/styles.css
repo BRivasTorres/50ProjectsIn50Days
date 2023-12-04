@@ -1,0 +1,39 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main__text {
+    font-size: 2.4rem;
+}
+
+.main__container {
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    bottom: 50px;
+    background-color: #D1876E;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.main__input {
+    background-color: darksalmon;
+    border: none;
+    outline: transparent;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+}
