@@ -63,3 +63,5 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <a href="https://github-profiles-day28.netlify.app/"><img src="https://i.ibb.co/cyXk1gJ/28.png" alt="28" width="400px"></a>
 <h3>Day29: Double Click Heart</h3>
 <a href="https://double-click-notification-day29.netlify.app/"><img src="https://i.ibb.co/Nrbz4xh/29.png" alt="29" width="400px"></a>
+<h3>Day30: Auto Text Effect</h3>
+<a href="https://auto-text-effect-day29.netlify.app/"><img src="https://i.ibb.co/Dg4SnHJ/30.png" alt="30" width="400px"></a>
