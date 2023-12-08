@@ -17,25 +17,24 @@
             <h2 class="main__h2">Password Generator</h2>
 
             <div class="main__result">
-                <button>
+                <span class="main__span"></span>
+                <button class="main__button">
                     <i class="fa-regular fa-clipboard"></i>
                 </button>
             </div>
 
-            <div class="main__parameters">
-                <ul class="main__ul">
-                    <label for="length">Password length</label>
-                    <input type="number" max="20" min="4" value="20" id="length" name="length">
-                    <label for="uppercase">Include uppercase letters</label>
-                    <input type="checkbox" name="uppercase" id="uppercase">
-                    <label for="lowercase">Include lowercase letters</label>
-                    <input type="checkbox" name="lowercase" id="lowercase">
-                    <label for="numbers">Include numbers</label>
-                    <input type="checkbox" name="numbers" id="numbers">
-                    <label for="symbols">Include symbols</label>
-                    <input type="checkbox" name="symbols" id="symbols">
-                </ul>
-            </div>
+            <ul class="main__ul">
+                <label for="length">Password length</label>
+                <input type="number" max="20" min="4" value="20" id="length" name="length">
+                <label for="uppercase">Include uppercase letters</label>
+                <input type="checkbox" name="uppercase" id="uppercase" checked>
+                <label for="lowercase">Include lowercase letters</label>
+                <input type="checkbox" name="lowercase" id="lowercase" checked>
+                <label for="numbers">Include numbers</label>
+                <input type="checkbox" name="numbers" id="numbers" checked>
+                <label for="symbols">Include symbols</label>
+                <input type="checkbox" name="symbols" id="symbols" checked>
+            </ul>
         </main>
     </div>
 </body>
