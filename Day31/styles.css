@@ -40,9 +40,16 @@ body {
     height: 50px;
     display: grid;
     grid-template-columns: 1fr 50px;
+        
 }
 
-.main__button {
+.main__span {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: auto 0;
+}
+
+.main__button--copy {
     background-color: #3B3B98;
     border: none;
     outline: transparent;
@@ -51,8 +58,8 @@ body {
     font-size: 1rem;
 }
 
-.main__button:hover,
-.main__button:active {
+.main__button--copy:hover,
+.main__button--copy:active {
     cursor: pointer;
 }
 
@@ -92,3 +99,4 @@ body {
 .main__btn:hover {
     cursor: pointer;
 }
+
