@@ -47,8 +47,45 @@
     height: 33px;
     border-radius: 50%;
     margin: .3rem;
+    position: relative;
 }
 
 .span {
     font-size: 1.5rem;
+}
+
+.active {
+    background-color: #8E44AD;
+}
+
+.activeAnimation {
+    animation: moveForward .6s ease-in forwards;
+}
+
+.desactiveAnimation {
+    animation: moveBackward .5s ease-in forwards;
+}
+
+@keyframes moveForward {
+    0% {
+        left: 0%;       
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        left: 52%;
+    }
+}
+
+@keyframes moveBackward {
+    0% {
+        left: 52%;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        left: 0%;
+    }
 }
