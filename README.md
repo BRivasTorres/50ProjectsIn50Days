@@ -67,3 +67,5 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <a href="https://auto-text-effect-day29.netlify.app/"><img src="https://i.ibb.co/Dg4SnHJ/30.png" alt="30" width="400px"></a>
 <h3>Day31: Password Generator</h3>
 <a href="https://password-generator-day31.netlify.app/"><img src="https://i.ibb.co/GFcw5rC/31.png" alt="31" width="400px"></a>
+<h3>Day32: Good, Cheap, Fast</h3>
+<a href="https://good-cheap-fast-day32.netlify.app/"><img src="https://i.ibb.co/6XgMPgS/32.png" alt="32" width="400px"></a>
