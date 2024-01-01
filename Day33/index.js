@@ -1,4 +1,3 @@
-const deleteBtn = document.querySelector(".btns__delete")
 const addBtn = document.querySelector(".wrapper__add")
 const wrapper = document.querySelector(".wrapper")
 
@@ -18,17 +17,20 @@ addBtn.addEventListener("click", () => {
     
     
     const editBtns = document.querySelectorAll(".btns__edit");
-    editBtns.forEach((btn, id) => {
-        const texts = document.querySelectorAll(".note__text");
-        const arr = [...texts]
+    editBtns.forEach((btn,id) => btn.addEventListener("click", () => handleEdit(id)))
     
+    const deleteBtns = document.querySelectorAll(".btns__delete");
+    deleteBtns.forEach((btn) => {
         btn.addEventListener("click", () => {
-            handleEdit(arr, id)
-        });     
+            const nodeToDelete = btn.closest(".note")
+            nodeToDelete.remove()
+        })
     })
 })
    
-const handleEdit = (arr, i) => {
+const handleEdit = (i) => {
+    const texts = document.querySelectorAll(".note__text");
+	const arr = [...texts];
     if(arr[i].readOnly === true) {
         arr[i].readOnly = false
     } else  {
