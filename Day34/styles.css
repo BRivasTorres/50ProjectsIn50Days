@@ -1,0 +1,70 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display:grid;
+    place-content: center;
+    background: #FFFFFF;
+}
+
+.main__h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    z-index: -1;
+}
+
+.main__button {
+    padding: 5px 15px;
+}
+
+.animated__div {
+    /* display: none; */
+    border: 1px solid red;
+}
+
+.animated__num {
+    color: #3498DB;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    transform-origin: bottom;
+    animation: animated-num 3 ease 1s;
+    z-index: 1;
+}
+
+.animated__text {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    z-index: 2;
+    background: white;
+}
+
+@keyframes animated-num {
+    0% {
+        transform: rotate(180deg);
+    }
+
+    30% {
+        transform: rotate(-20deg);
+    }
+
+    60% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-180deg);
+    }
+}
+
