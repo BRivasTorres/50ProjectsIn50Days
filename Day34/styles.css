@@ -24,9 +24,18 @@ body {
     padding: 5px 15px;
 }
 
+.main__content {
+    display:  none;
+}
+
+.main__button:hover {
+    cursor: pointer;
+}
+
 .animated__div {
-    /* display: none; */
-    border: 1px solid red;
+    background: linear-gradient(green 0 50%, red 50%);
+    position: relative;
+    z-index: 3;
 }
 
 .animated__num {
@@ -34,9 +43,13 @@ body {
     font-size: 3rem;
     text-align: center;
     font-weight: 900;
+    z-index: -1;
+    position: relative;
+}
+
+.animation-num {
     transform-origin: bottom;
-    animation: animated-num 3 ease 1s;
-    z-index: 1;
+    animation: animated-num 4 ease 1s;
 }
 
 .animated__text {
@@ -47,7 +60,7 @@ body {
     width: 200px;
     height: 50px;
     z-index: 2;
-    background: white;
+    position: relative;
 }
 
 @keyframes animated-num {
