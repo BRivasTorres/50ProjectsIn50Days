@@ -75,3 +75,5 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <a href="https://animated-countdown-day34.netlify.app/"><img src="https://i.ibb.co/3dkpxfZ/34.png" alt="34" width="400px"></a>
 <h3>Day35: Image Carousel</h3>
 <a href="https://image-carousel-day35.netlify.app/"><img src="https://i.ibb.co/gP4GpRJ/35.png" alt="35" width="400px"></a>
+<h3>Day36: Hoverboard</h3>
+<a href="https://hoverboard-day36.netlify.app/"><img src="https://i.ibb.co/K55F619/36.png" alt="36" width="400px"></a>
