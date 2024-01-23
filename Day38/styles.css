@@ -28,6 +28,13 @@ body, html {
     overflow: hidden;
 }
 
+.main__imgs {
+    background-image: url("./imgs/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .main__btns {
     display: flex;
     align-items: center;
@@ -50,4 +57,5 @@ body, html {
 .main__btns>button:hover,
 .main__btns>button:active {
     cursor: pointer;
+    color: #8E44AD;
 }
