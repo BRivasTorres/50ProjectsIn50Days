@@ -8,19 +8,21 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="background"></div>
         <div class="main">
             <div class="main__text">
                 <h2 class="text__h2">Image password strength</h2>
                 <small class="text__small">Change the password to see the eeffect</small>
             </div>
-            <form action="" class="main__form">
+            <form action="" class="main__form" id="form">
                 <label for="email" class="form__label" >Email:</label>
                 <input type="text" name="email" id="email" placeholder="Enter email" class="form__input">
                 <label for="password" class="form__label">Password:</label>
-                <input type="password" placeholder="Enter Password" class="form__input">
+                <input type="password" placeholder="Enter Password" class="form__input" id="password-input">
                 <button type="submit" class="form__btn">Submit</button>
             </form>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
