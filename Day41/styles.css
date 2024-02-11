@@ -66,15 +66,20 @@ html, body {
     border-radius: 5px;
 }
 
- .numbers__input::-webkit-inner-spin-button,
- .numbers__input::-webkit-outer-spin-button {
-     -webkit-appearance: none;
-     margin: 0;
- }
+.numbers__input:valid {
+    border-color: #3498db;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+}
+.numbers__input::-webkit-inner-spin-button,
+.numbers__input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
  
- .main__span {
+.main__span {
     background-color: #EAEAEA;
     margin-top: 3rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     width: 60%;
     text-align: center;
