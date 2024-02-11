@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto+Mono:wght@200;400;500&display=swap');
+
+:root {
+    --black-color: #000000;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 50%;
+    max-width: 800px;
+    border: 3px solid var(--black-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__tittle {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.main__description {
+    color: #636152;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 4rem;
+}
+.main__description > p{
+    text-align: center;
+}
+
+.main__numbers {
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.numbers__input {
+    border: 2px solid #EEEEEE;
+    text-align: center;
+    font-size: 5rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+ .numbers__input::-webkit-inner-spin-button,
+ .numbers__input::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+ 
+ .main__span {
+    background-color: #EAEAEA;
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 60%;
+    text-align: center;
+}
