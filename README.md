@@ -85,3 +85,5 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <a href="https://password-strngth-background-day39.netlify.app/"><img src="https://i.ibb.co/1nff4LL/39.png" alt="39" width="400px"></a>
 <h3>Day40: 3D Background</h3>
 <a href="https://3d-background-day40.netlify.app/"><img src="https://i.ibb.co/2hV9pSW/40.png" alt="40" width="400px"></a>
+<h3>Day41: Verify Account</h3>
+<a href="https://verify-account-day41.netlify.app/"><img src="https://i.ibb.co/2t9zX0g/41.png" alt="41" border="0"></a>
