@@ -86,4 +86,6 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <h3>Day40: 3D Background</h3>
 <a href="https://3d-background-day40.netlify.app/"><img src="https://i.ibb.co/2hV9pSW/40.png" alt="40" width="400px"></a>
 <h3>Day41: Verify Account</h3>
-<a href="https://verify-account-day41.netlify.app/"><img src="https://i.ibb.co/2t9zX0g/41.png" alt="41" border="0"></a>
+<a href="https://verify-account-day41.netlify.app/"><img src="https://i.ibb.co/2t9zX0g/41.png" alt="41" width="400px"></a>
+<h3>Day42: Feedback U/I Design</h3>
+<a href="https://feedback-ui-desing-day42.netlify.app/"><img src="https://i.ibb.co/wd06xw0/42.png" alt="42" width="400px"></a>
