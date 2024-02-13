@@ -9,17 +9,25 @@
 <body>
     <div class="wrapper">
         <main class="main">
-            <h2 class="main__tittle">How satisfied are you with our
-            customer support performance?</h2>
-            <form action="" class="form">
-                <div class="form__feedback">
-                    <div class="feedback__box">☹️<span>Unhappy</span></div>
-                    <div class="feedback__box">😐<span>Neutral</span></div>
-                    <div class="feedback__box">😀<span>Satisfaid</span></div>
-                </div>
-                <button class="form__submit">Send review</button>
-            </form>
+            <section class="main__feedback">
+                <h2 class="main__tittle">How satisfied are you with our
+                customer support performance?</h2>
+                <form action="" class="form">
+                    <div class="form__feedback">
+                        <div class="feedback__box">☹️<span>Unhappy</span></div>
+                        <div class="feedback__box">😐<span>Neutral</span></div>
+                        <div class="feedback__box active">😀<span>Satisfaid</span></div>
+                    </div>
+                    <button class="form__submit" type="submit">Send review</button>
+                </form>
+            </section>
+            <section class="main__greetings">
+                <h3 class="greetings__icon">♥️</h3>
+                <h2 class="greetings__feedback">Feddback: <span class="greetings__response"></span> </h2>
+                <p class="greetings__support">We'll use your feedback to improve our customer support</p>
+            </section>
         </main>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
