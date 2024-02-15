@@ -15,8 +15,10 @@
 }
 
 .main {
+    min-width: 500px;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .main__form {
@@ -45,4 +47,38 @@
     border-radius: 50px;
     font-size: 1.4rem;
     color: white;
+}
+
+.main__data {
+    background-color: white;
+    overflow: hidden;
+}
+
+.data__wrapper {
+    overflow-y: scroll;
+    max-height: 400px;
+    margin-top: 1.4rem;
+}
+
+.wrapper__card {
+    border-bottom: 3px solid #F8F9FD;
+    padding: .8rem 2rem;
+    display: flex;
+    align-items: start;
+    gap: 0 1.5rem;
+}
+
+.card__img {
+    border-radius: 50%;
+}
+
+.card__name {
+    margin-bottom: .6rem;
+}
+
+.data__charging {
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
 }
