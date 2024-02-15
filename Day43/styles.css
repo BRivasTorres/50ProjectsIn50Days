@@ -1,0 +1,48 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FD;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+.main {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.main__form {
+    background-color: #3E57DB;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.form__title {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.form__description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.form__search {
+    background-color: #2B3D99;
+    border: none;
+    outline: transparent;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    color: white;
+}
