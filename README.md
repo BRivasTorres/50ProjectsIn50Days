@@ -1,9 +1,21 @@
-# 50ProjectsIn50Days
 
-Repository created to carry out the projects proposed by: <br>
-<b>--Repository</b> === https://github.com/bradtraversy/50projects50days <br>
-<b>--Author</b> === https://github.com/bradtraversy <br>
-In order to polish and reinforce certain knowledge and practices in these tools, which will be mainly: HTML, CSS and JS.
+# 50 Projects in 50 Days
+
+Projects to practice concepts of HTML, CSS and JS technologies. Without a doubt an entertaining way to learn. Through these I practiced, reinforced and learned concepts to solidify my stack as a frontend programmer.
+
+
+## Tech Stack
+
+**Client:** HTML, CSS, JS.
+
+
+
+## Authors
+
+- Repository : https://github.com/bradtraversy/50projects50days
+- Web : https://github.com/bradtraversy
+
+
 
 <h3>Day1🌅: Slider Card </h3>
 <a href="https://expanding-cards-day1.netlify.app/"> <img src="https://i.ibb.co/mCPrNHJ/Captura-de-pantalla-2023-09-03-092442.png" alt="img1" width="400px"></a> <br />
@@ -89,3 +101,5 @@ In order to polish and reinforce certain knowledge and practices in these tools,
 <a href="https://verify-account-day41.netlify.app/"><img src="https://i.ibb.co/2t9zX0g/41.png" alt="41" width="400px"></a>
 <h3>Day42: Feedback U/I Design</h3>
 <a href="https://feedback-ui-desing-day42.netlify.app/"><img src="https://i.ibb.co/wd06xw0/42.png" alt="42" width="400px"></a>
+<h3>Day43: Live User Filter</h3>
+<a href="https://live-user-filter-day43.netlify.app/"><img src="https://i.ibb.co/bBmbGrK/43.png" alt="43" width="400px"></a>
