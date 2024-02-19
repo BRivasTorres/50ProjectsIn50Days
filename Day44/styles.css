@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Revolution&family=Protest+Riot&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D2DBE9;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 500px;
+}
+
+.main__title {
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 8rem;
+    margin-top: 3rem;
+}
+
+.main__range {
+    width: 100%;
+}
+
+.range__value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 80px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.range__input {   
+    margin-top: 2rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.range__input,
+.range__input::-webkit-slider-runnable-track,
+.range__input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+.range__input::-webkit-slider-runnable-track {
+    background-color: #800080;
+    color: #800080;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 10px;
+}
+
+.range__input::-webkit-slider-thumb {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-top: -10px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid #800080;
+}
