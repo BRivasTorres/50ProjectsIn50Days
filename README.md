@@ -103,3 +103,5 @@ Projects to practice concepts of HTML, CSS and JS technologies. Without a doubt 
 <a href="https://feedback-ui-desing-day42.netlify.app/"><img src="https://i.ibb.co/wd06xw0/42.png" alt="42" width="400px"></a>
 <h3>Day43: Live User Filter</h3>
 <a href="https://live-user-filter-day43.netlify.app/"><img src="https://i.ibb.co/bBmbGrK/43.png" alt="43" width="400px"></a>
+<h3>Day44: Live User Filter</h3>
+<a href="https://custom-range-slider-day44.netlify.app/"><img src="https://i.ibb.co/k1tgQn6/44.png" alt="44" width="400px"></a>
