@@ -53,6 +53,13 @@
     height: 100%;
 }
 
+.form__summary {
+    text-align: center;
+    padding: 0 .5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
 .content__tittle {
     text-align: center;
     font-size: 2rem;
@@ -61,7 +68,7 @@
 .content__options {
     display: flex;
     flex-direction: column;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .content__options >  aside {
