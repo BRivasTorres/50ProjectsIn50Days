@@ -21,13 +21,13 @@ const questions = [
 			"Hypertext Markup Language",
 			"Hypertext Markdown Language",
 			"Hyperloop Machine Language",
-			" Helicopters Terminals Motorboats Lamborginis",
+			"Helicopters Terminals Motorboats Lamborginis",
 		],
 		answer: "Hypertext Markdown Language",
 	},
 	{
 		question: "What year was JavaScript launched?",
-		options: [1996, 1994, 1996, "none of the above"],
+		options: [1996, 1994, 1995, "none of the above"],
 		answer: 1995
 	},
 ];
@@ -35,9 +35,6 @@ let currentForm = 0;
 let correctAnswers = 0
 
 function printForm() {
-	// if(currentForm === 3) {
-	// 	console.log("cal this")
-	// }
 	questions.forEach((question) => {
 		const form = createForm(question)
 		main.appendChild(form)
@@ -87,9 +84,14 @@ printForm();
 const forms = document.querySelectorAll(".main__form");
 forms.forEach((form, idx) => {
 	form.addEventListener("submit", (e) => {
+		currentForm++
 		e.preventDefault()		
 		updateCurrentForm()
 		updataCountAnswers(idx);
+		
+		if(idx === 3) {
+			printSumary()
+		}
 	})
 })
 
@@ -104,19 +106,25 @@ function updateCurrentForm() {
 }
 
 function printSumary() {
-	const summary = document.createElement("h3")
-	summary.classList.add(".form__summary--h3")
-	summary.innerHTML = `You answered ${correctAnswers}/4 questions correctly`;
+	const summaryForm = document.createElement("form")
+	summaryForm.classList.add("form__summary")
+	
+	const summaryTittle = document.createElement("h3")
+	summaryTittle.classList.add("summary__h3");
+	summaryTittle.innerHTML = `You answered ${correctAnswers + 1}/4 questions correctly`;
 	
 	const buttonReload = document.createElement("button")
-	buttonReload.classList.add(".form__submit reload")
+	buttonReload.classList.add("form__submit");
 	buttonReload.innerHTML = "Reload"
 	
 	buttonReload.addEventListener("click", () => {
 		window.location.reload();
 	});
+	
+	summaryForm.appendChild(summaryTittle)
+	summaryForm.appendChild(buttonReload)
+	main.appendChild(summaryForm)
 }
-
 function updataCountAnswers(idxForm) {
 	const optionsInputs = document.querySelectorAll(".options__input")
 	optionsInputs.forEach((input) => {

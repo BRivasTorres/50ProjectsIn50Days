@@ -38,6 +38,7 @@
     padding: 1.5rem 0;
     font-size: 1.5rem;
     transition: all 500ms ease-in;
+    width: 100%;
 }
 
 .form__submit:hover {
@@ -54,10 +55,16 @@
 }
 
 .form__summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.summary__h3 {
     text-align: center;
-    padding: 0 .5rem;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding: 2rem;
 }
 
 .content__tittle {
