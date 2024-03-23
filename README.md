@@ -109,3 +109,5 @@ Projects to practice concepts of HTML, CSS and JS technologies. Without a doubt 
 <a href="https://netflix-mobile-navigation-day45.netlify.app/"><img src="https://i.ibb.co/DC3gndp/45.png" alt="45" width="400px"></a>
 <h4>Day46: Online Quiz</h4>
 <a href="https://online-quiz-day46.netlify.app/"><img src="https://i.ibb.co/T8Ww20Q/46.png" alt="46" border="0" width="400px"></a>
+<h4>Day47: Testimonials Box</h4>
+<a href="https://testimonial-box-day47.netlify.app/"><img src="https://i.ibb.co/hFvpmxj/day47.png" alt="day47" width="400px"></a>
