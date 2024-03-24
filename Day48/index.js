@@ -7,10 +7,10 @@ window.addEventListener("load", () => {
 async function createCardImg() {
     wrapper.innerHTML = ""
     const dataImgs = await getData()
-    
     for(let i = 0; i < dataImgs.length; i++) {
         const img = document.createElement("img")
         img.classList.add("imgs__img")
+        img.classList.add("skeleton")
         
         const imgUrl = dataImgs[i].urls.regular
         img.src = `${imgUrl}`;
