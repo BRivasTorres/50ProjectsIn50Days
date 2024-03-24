@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Revolution&family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #F5F5F5;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 60%;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.main__title {
+    font-size: 10rem;
+    font-weight: 500;
+    color: #DBC7ED;
+    margin-bottom: 8rem;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form__input {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 238, 238);
+    border: none;
+    font-size: 2rem;
+    color: #444;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+.form__input::placeholder {
+    color: #D6D5D5;
+    text-transform: capitalize;
+}
+
+.form__input:focus {
+    outline-color: rgb(179, 131, 226);
+}
+
+.form__tasks {
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    border: none;
+    font-size: 2rem;
+    color: #444;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+.tasks.completed {
+    color: #b6b6b6;
+    text-decoration: line-through
+}
+
+.todos__instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    color: #B5B5B5;
+}
