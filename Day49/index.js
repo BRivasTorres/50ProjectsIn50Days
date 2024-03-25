@@ -11,16 +11,16 @@ function handleSubmitForm(e) {
     if (tempTodoVal.length > 0) {
         createTodoTask(tempTodoVal);
         clearInput();
-        updateTaskState()
     }
 }
 
 function createTodoTask() {
-    const tasks = document.createElement("div");
-	tasks.classList.add("form__tasks");
-	tasks.innerHTML = tempTodoVal;
-
-	todoForm.appendChild(tasks);
+    const task = document.createElement("li");
+	task.classList.add("form__tasks");
+	task.innerHTML = tempTodoVal;
+     
+    updateTaskState(task)
+	todoForm.appendChild(task);
 }
 
 function clearInput() {
@@ -28,16 +28,15 @@ function clearInput() {
     inputForm.value = ""
 }
 
-const updateTaskState = () => {
-    const tasks = document.querySelectorAll(".form__tasks")
-    tasks.forEach((task) => {
-		task.addEventListener("contextmenu", (e) => {
-			e.preventDefault();
-			console.log("Clic derecho en la tarea:", task.textContent);
-		});
-
-		task.addEventListener("click", (e) => {
-			console.log("Clic izquierdo en la tarea:", task.textContent);
-		});
-	});
+const updateTaskState = (task) => {
+    if(task) {
+        task.addEventListener("click", () => {
+            task.classList.toggle("completed");
+        });
+        
+        task.addEventListener("contextmenu", (e) => {
+            e.preventDefault()
+            task.remove()
+        });
+    }
 }
