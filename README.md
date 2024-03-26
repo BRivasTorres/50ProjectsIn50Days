@@ -115,3 +115,5 @@ Projects to practice concepts of HTML, CSS and JS technologies. Without a doubt 
 <a href="https://random-image-feed-day48.netlify.app/"><img src="https://i.ibb.co/4T0vMr6/day48.png" alt="day48" width="400px"></a>
 <h4>Day49: Todo List</h4>
 <a href="https://todo-list-day49.netlify.app/"><img src="https://i.ibb.co/1XHgWhr/day49.png" alt="day49" width="400px"></a>
+<h4>Day50: Catch the car</h4>
+<a href="https://catch-the-car-day50.netlify.app/"><img src="https://i.ibb.co/C5CsPvH/day50.png" alt="day50" width="400px"></a>
