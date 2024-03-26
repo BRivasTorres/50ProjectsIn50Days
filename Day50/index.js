@@ -44,7 +44,7 @@ const updateSeconds = () => {
 		currentSeconds = 0;
 		updateMinutes();
 	}
-    if(currentSeconds === 10) showMessage()
+    if(currentSeconds === 30) showMessage()
 	timeSeconds.innerHTML = currentSeconds.toString().padStart(2, "0");
 };
 
