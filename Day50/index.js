@@ -62,8 +62,8 @@ const createCars = () => {
 	img.classList.add("play__img");
 
     const {x, y} = randomImgPosition()
-    img.style.top = `${x}px`;
-    img.style.left = `${y}px`;
+    img.style.top = `${y}px`;
+    img.style.left = `${x}px`;
 
     img.addEventListener("click", catchCar)
 	wrapperPlay.appendChild(img);
